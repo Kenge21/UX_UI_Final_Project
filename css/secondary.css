@@ -1,31 +1,45 @@
-/* Fonts, Header styles */
+/* Fonts, Header, button style */
 
-@font-face {
-    font-family: '';
-    src: url('../fonts/') format('');
-    }
- /* name font-family
- add font file to fonts folder and link the path in 'url'
- add format the types are: "woff", "woff2", "truetype", "opentype", "embedded-opentype", & "svg"*/
-
- h1 {
-
+h1 {
+    font-family: 'freight-big-pro', serif;
+    font-weight: 700;   
+    font-style: italic;
+    font-size: 100px;
  }
 
  h2 {
-
+    font-family: 'freight-big-pro', serif;
+    font-weight: 700;    
+    font-style: normal;
+    font-size: 75px;
  }
 
  h3 {
-
+    font-family: 'freight-big-pro', serif;
+    font-weight: 400;    
+    font-style: normal;
+    font-size: 75px;
  }
 
  h4 {
-
+    font-family: 'lato', serif;
+    font-weight: 400;    
+    font-style: normal;
+    font-size: 75px;
  }
 
- h5 {
+ p {
+    font-family: 'lato', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+ }
 
+ button {
+    font-family: 'lato', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
  }
 
 /* Page or body styles */
