@@ -1,24 +1,203 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
 
-        <title>Homepage</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
+<head>
+    <meta charset="utf-8">
 
-    <nav>
+    <title>Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Adobe Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.typekit.net/seo5zbh.css">
+    <!-- JS script tag -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
 
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation-bar-container">
+        <div class="container-fluid navigation-bar">
+            <div class="collapse navbar-collapse" id="navbarScroll">
+
+                <!-- Zara Logo -->
+                <a class="navbar-brand zara-logo" href="index.html">ZARA</a>
+
+                <!-- Left Navigation -->
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Women</a>
+                        <ul class="dropdown-menu women-dropdown-screen" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Men</a>
+                        <ul class="dropdown-menu men-dropdown-screen" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Kids</a>
+                        <ul class="dropdown-menu kids-dropdown-screen" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Collections</a>
+                        <ul class="dropdown-menu collections-dropdown-screen" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Info</a>
+                        <ul class="dropdown-menu info-dropdown-screen" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <!-- Right Navigation -->
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
     </nav>
 
-    <body>
+    <!-- Hero Section -->
 
-        <!-- JS script tag -->
-        <script src="js/script.js"></script>
-    </body>
+    <div class="hero-container">
+        <img src="images/Hero Image.jpeg">
+        <h1>Spring & Summer<Br>Collection</h1>
+    </div>
 
-    <footer>
+    <!-- 45% off Sale Section -->
 
-    </footer>
+    <div class="sale-container">
+        <div class="marquee">
+            <div class="marquee__inner" aria-hidden="true">
+                <span>45% off Sale for Best Sellers</span>
+                <span>45% off Sale for Best Sellers</span>
+                <span>45% off Sale for Best Sellers</span>
+                <span>45% off Sale for Best Sellers</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Spring/Summer Section -->
+
+    <div class="ss-container">
+        <h5>Limited Edition</h5>
+        <div class="header-container">
+            <h2>Spring | Summer Collection 2021</h2>
+            <div class="button">SHOP NOW</div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 cards-container">
+            <div class="col">
+              <div class="card">
+                <img src="images/productpreview1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/productpreview2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/productpreview3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!-- Newsletter -->
+
+    <div class="newsletter-container">
+        <div class="newsletter-header">
+            <h3>Sign up for our Newsletter</h3>
+            <h4>and stay on top of current trends</h4>
+        </div>
+        <div class="button">SIGN UP</div>
+    </div>
+
+    <!-- Zara Series Section -->
+
+    <div class="series-container">
+        <h5>Zara Series</h5>
+        <div class="header-container">
+            <h2>Series JL</h2>
+            <div class="button">SHOP NOW</div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4 cards-container">
+            <div class="col">
+              <div class="card">
+                <img src="images/productpreview1.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/productpreview2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="images/productpreview3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+</body>
+
+<footer>
+
+</footer>
+
 </html>
