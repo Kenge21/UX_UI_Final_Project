@@ -208,6 +208,31 @@
     margin-top: 100px;
 }
 
+.year-circle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -80px;
+    margin-bottom: -500px;
+}
+
+.year-circle {
+    color: #F3EFEA;
+    background: #D7BFAE;
+    height: 110px;
+    width: 110px;
+    border-top-left-radius: 120px;  /* 500px of height + 10px of border */
+    border-bottom-left-radius: 120px; /* 500px of height + 10px of border */
+    border-top-right-radius: 120px;  /* 500px of height + 10px of border */
+    border-bottom-right-radius: 120px; /* 500px of height + 10px of border */
+    border: 10px;
+}
+
+.year-circle-container h1 {
+    color: #F3EFEA;
+    font-size: 55px;
+}
+
 /* 45% off Sale Container */
 
 .sale-container {
