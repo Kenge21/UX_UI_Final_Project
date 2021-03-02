@@ -35,6 +35,20 @@
     font-size: 18px;
  }
 
+ h6 {
+    font-family: 'freight-big-pro', serif;
+    font-weight: 400;    
+    font-style: normal;
+    font-size: 24px;
+ }
+
+ h7 {
+    font-family: 'freight-big-pro', serif;
+    font-weight: 400;    
+    font-style: italic;
+    font-size: 24px;
+ }
+
  p {
     font-family: 'lato', sans-serif;
     font-weight: 400;
@@ -67,10 +81,8 @@
     color: #2e2718;
     margin: 0px;
     height: 65px;
-    -webkit-box-shadow: 1px 1px 1px #ADADAC;
-    -moz-box-shadow: 1px 1px 1px #ADADAC;
-    box-shadow: 1px 1px 1px #ADADAC;
-    z-index: 999;
+    border-bottom: solid 1px lightgray;
+    z-index: 6;
 }
 
 .zara-logo {
@@ -86,103 +98,57 @@
   
 .dropdown-screen {
     height: 600px;
-    border: none;
     background: #f3efea;
-    z-index: 2;
-    
 }
 
 .open {
     display: block !important;
 }
 
-.women-dropdown-screen {
+.dropdown:hover .dropdown-menu, .dropdown-menu:hover {
+    display: block !important;
+    z-index: 5;
+}
+
+.navbar-collapse, .navbar-nav {
+    height: 65px;
+    line-height: 45px;
+}
+
+.dropdown-container {
+    height: 100%;
+    width: 100%;
+}
+
+.dropdown-menu {
     height: 500px;
     display: none;
     background: #f3efea;
     z-index: 2;
     width: 1440px;
-    top: 55px;
+    top: 65px;
+    border: none;
+}
+
+.women-dropdown-screen {
     left: -12px !important;
-    border-radius: 0px;
-    border-top: solid;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: #2e2718;
 }
 
 .men-dropdown-screen {
-    height: 500px;
-    border: none;
-    background: #f3efea;
-    z-index: 2;
-    width: 1440px;
-    top: 55px;
     left: -102px !important;
-    border-radius: 0px;
-    border-top: solid;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: #2e2718;
-    transition: all;
 }
 
 .kids-dropdown-screen {
-    height: 500px;
-    border: none;
-    background: #f3efea;
-    z-index: 2;
-    width: 1440px;
-    top: 55px;
     left: -169px !important;
-    border-radius: 0px;
-    border-top: solid;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: #2e2718;
-    transition: all;
 }
 
 .collections-dropdown-screen {
-    height: 500px;
-    border: none;
-    background: #f3efea;
-    z-index: 2;
-    width: 1440px;
-    top: 55px;
     left: -235px !important;
-    border-radius: 0px;
-    border-top: solid;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: #2e2718;
-    transition: all;
+
 }
 
 .info-dropdown-screen {
-    height: 500px;
-    border: none;
-    background: #f3efea;
-    z-index: 2;
-    width: 1440px;
-    top: 55px;
     left: -348px !important;
-    border-radius: 0px;
-    border-top: solid;
-    border-bottom: none;
-    border-left: none;
-    border-right: none;
-    border-width: 1px;
-    border-color: #2e2718;
-    transition: all;
 }
 
 .dropdown-toggle::after {
@@ -204,6 +170,16 @@
     font-style: normal;
     font-size: 14px;
     color: #2e2718;
+}
+
+.nav-link {
+    height: 65px;
+}
+
+.right-navigation img {
+    height: 50px;
+    padding: 10px;
+    margin-left: 10px;
 }
 
 /* Hero Section */
@@ -466,6 +442,7 @@ hr.solid {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 75px;
 }
 
 .image-container p {
@@ -481,3 +458,59 @@ hr.solid {
 }
 
 /* Footer styles */
+
+.footer-container {
+    display: flex;
+    width: 100%;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+    background-color: #2e2718;
+    color: #F3EFEA;
+    width: 100%;
+    height: auto;
+}
+
+.footer-column {
+    margin: 0 50px;
+}
+
+.footer-column p {
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.right-footer {
+    background-color: #D7BFAE;
+    color: #2e2718;
+    padding: 50px 100px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email-box {
+    font-family: 'Lato', serif;
+    font-size: 16px;
+    color: #2e2718;
+    border: solid 1px black;
+    width: 350px;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.right-footer h6 {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.right-footer img {
+    height: 40px;
+    margin-top: 15px;
+    object-fit: contain;
+    margin-top: 25px;
+}
