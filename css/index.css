@@ -339,7 +339,7 @@
 .marquee {
     position: relative;
     overflow: hidden;
-    --offset: 50vw;
+    --offset: 15vw;
     --move-initial: calc(-25% + var(--offset));
     --move-final: calc(-50% + var(--offset));
 }
