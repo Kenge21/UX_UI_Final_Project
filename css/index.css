@@ -277,6 +277,7 @@
 .dropdown-subtitle span {
     font-weight: 700;
 }
+
 /* Hero Section */
 
 .hero-container {
@@ -539,11 +540,15 @@ hr.solid {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.social-container .mobile-content {
+    display: none;
+}
+
 .social-container img {
     display: flex;
     flex-direction: row;
     height: 300px;
-    align-items: space-evenly;
 }
 
 .icon img  {
@@ -632,4 +637,160 @@ hr.solid {
     margin-top: 15px;
     object-fit: contain;
     margin-top: 25px;
+}
+
+/* Responsive Web Design CSS */
+
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 45px;
+    }
+    
+    .hero-container img {
+        height: 400px;
+        margin-top: 50px;
+    }
+
+    .hero-container {
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        padding: 50px 15px;
+    }
+
+    .year-circle-container {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: -400px;
+        margin-right: 0px;
+    }
+
+    .year-circle {
+        height: 90px;
+        width: 90px;
+        border-top-left-radius: 100px;  /* 500px of height + 10px of border */
+        border-bottom-left-radius: 100px; /* 500px of height + 10px of border */
+        border-top-right-radius: 100px;  /* 500px of height + 10px of border */
+        border-bottom-right-radius: 100px; /* 500px of height + 10px of border */
+        border: 10px;
+    }
+
+    .year-circle-container h1 {
+        font-size: 44px;
+    }
+
+    .marquee__inner span {
+        font-size: 40px;
+    }
+
+    .ss-container h5 {
+        font-size: 14px;
+    }
+
+    .ss-container h2 {
+        font-size: 32px;
+    }
+
+    .ss-container .button {
+        display: none;
+    }
+
+    .ss-container .col {
+        display: none;
+    }
+
+    .ss-container .card-mobile {
+        display: flex;
+        padding: 0px;
+        height: 725px;
+    }
+
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .newsletter-container h3 {
+        font-size: 32px;
+    }
+
+    .newsletter-container h4 {
+        font-size: 32px;
+    }
+
+    .series-container h5 {
+        font-size: 14px;
+    }
+
+    .series-container h2 {
+        font-size: 32px;
+    }
+
+    .series-container .button {
+        display: none;
+    }
+
+    .series-container .col {
+        display: none;
+    }
+
+    .series-container .card-mobile {
+        display: flex;
+        padding: 0px;
+        height: 675px;
+    }
+    
+    .social-container .content {
+        display: none;
+    }
+
+    .social-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 45px;
+    }
+
+    .social-container img {
+        height: 250px;
+    }
+
+    .social-container .mobile-content {
+        display: flex;
+        margin: 0px;
+    }
+
+    .social-container .col {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .image-container p {
+        font-size: 18px;
+    }
+
+    .image-container h5 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+    .icon img {
+        display: none;
+    }
+
+    .social-header h2 {
+        font-size: 40px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
 }

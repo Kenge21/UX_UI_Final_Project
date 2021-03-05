@@ -139,7 +139,7 @@ p {
    font-family: 'lato', sans-serif;
    font-weight: 400;
    font-style: normal;
-   font-size: 16px;
+   font-size: 14px;
    color: #2e2718;
    margin-right: 15px;
 }
@@ -160,6 +160,100 @@ p {
    height: 50px;
    padding: 10px;
    margin-left: 10px;
+}
+
+.dropdown-content span {
+   font-size: 12px;
+   margin-left: 50px;
+}
+
+.dropdown-content .row {
+   height: 30px;
+}
+
+.dropdown-content img {
+   margin-top: -15px;
+   object-fit: scale-down;
+   height: 400px;
+}
+
+.women-dropdown-image {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.women-dropdown-image img {
+   margin-top: 15px;
+}
+
+.women-dropdown-image span {
+   margin-left: 0px;
+   text-decoration: underline;
+}
+
+.men-dropdown-image {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.men-dropdown-image img {
+   margin-top: 15px;
+}
+
+.men-dropdown-image span {
+   margin-left: 0px;
+   text-decoration: underline;
+}
+
+.kids-dropdown-image {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.kids-dropdown-image img {
+   margin-top: 15px;
+}
+
+.kids-dropdown-image span {
+   margin-left: 0px;
+   text-decoration: underline;
+}
+
+.collection-dropdown-image {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.collection-dropdown-image img {
+   margin-top: 15px;
+}
+
+.collection-dropdown-image span {
+   margin-left: 0px;
+   text-decoration: underline;
+}
+
+.info-dropdown-image {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.info-dropdown-image img {
+   margin-top: 15px;
+}
+
+.info-dropdown-image span {
+   margin-left: 0px;
+   text-decoration: underline;
+}
+
+.dropdown-subtitle span {
+   font-weight: 700;
 }
 
 /* Product CSS */
@@ -573,4 +667,41 @@ hr.solid {
    margin-top: 15px;
    object-fit: contain;
    margin-top: 25px;
+}
+
+/* Responsive Web Design CSS */
+
+@media only screen and (max-width: 600px) {
+
+   .product-container {
+      display: none;
+   }
+
+   .product-container-mobile {
+
+   }
+
+   .column-one-mobile img {
+      height: 500px;
+   }
+
+   .company-standards .col-sm {
+      margin-left: 0px;
+   }
+
+   .purchased-with-container .col {
+      display: none;
+  }
+
+  .purchased-with-container .card-mobile {
+      display: flex;
+      padding: 0px;
+      height: 675px;
+  }
+
+   .footer-container {
+       display: flex;
+       flex-direction: column;
+       overflow: hidden;
+   }
 }
