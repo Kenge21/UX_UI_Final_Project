@@ -646,6 +646,10 @@ hr.solid {
 
 @media only screen and (max-width: 600px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     h1 {
         font-size: 45px;
     }
@@ -792,5 +796,17 @@ hr.solid {
     .footer-container {
         display: flex;
         flex-direction: column;
+    }
+
+    .email-box {
+        width: 200px;
+    }
+
+    .footer-column {
+        margin: 10px;
+    }
+
+    .right-footer h6 {
+        width: 240px;
     }
 }
