@@ -704,4 +704,24 @@ hr.solid {
        flex-direction: column;
        overflow: hidden;
    }
+
+   .review-content .col-3 {
+      width: 80%
+   }
+
+   .review-content .col-1 img {
+      opacity: 0;
+   }
+
+   .detail-dropdown {
+      margin-top: 14px;
+   }
+
+   .detail-dropdown img {
+      height: 15px !important;
+   }
+
+   .product-details img {
+      height: 3px;
+   }
 }
