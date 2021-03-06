@@ -258,6 +258,10 @@ p {
 
 /* Product CSS */
 
+.product-container-mobile {
+   display: none;
+}
+
 .product-container {
    display: flex;
    flex-direction: column;
